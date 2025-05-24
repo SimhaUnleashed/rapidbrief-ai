@@ -146,11 +146,11 @@ try{
         }
     }
     //Revalidate our cache
-revalidatePath(`/summaries/${savedSummary.id}`);
+revalidatePath(`/summaries/${savedSummary[0].id}`);
 return{
         success:true,
         message:"Summary saved successfully",
-        data:savedSummary
+        data:savedSummary[0]
     }
 }
 catch(error){
