@@ -13,7 +13,7 @@ export default function UpgradeRequired() {
               Premium Feature
             </span>
           </div>
-        </div>
+        
 
         <h1 className='text-4xl font-bold tracking-tight bg-linear-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent'>Subscription Required</h1>
         <p className='text-lg text-gray-600 border-2 border-rose-200 bg-white/5 leading-8 rounded-lg p-6 backdrop-blur-xs border-dashed max-w-xl'>
@@ -29,6 +29,7 @@ export default function UpgradeRequired() {
   </Link>
 </Button>
       </div>
+    </div>
     </div>
   );
 }
